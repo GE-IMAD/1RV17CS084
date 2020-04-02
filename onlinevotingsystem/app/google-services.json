@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "690631488107",
+    "firebase_url": "https://online-voting-5f4bd.firebaseio.com",
+    "project_id": "online-voting-5f4bd",
+    "storage_bucket": "online-voting-5f4bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:690631488107:android:93aa801ff6c399ef48772e",
+        "android_client_info": {
+          "package_name": "com.rvcollege.onlinevoting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "690631488107-cld7et9krss8c03fvb8hhi49727bplin.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rvcollege.onlinevoting",
+            "certificate_hash": "c07001c21b518bc401212218fc82c6c27f3cdb8b"
+          }
+        },
+        {
+          "client_id": "690631488107-bljnjhhpni0v84ukdvnme6ts4ecc9pr1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2v3lvar1tG5mVylr7RHGjUj01sO8mk9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "690631488107-bljnjhhpni0v84ukdvnme6ts4ecc9pr1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rvcollege.loginregister">
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="whateverString"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Online Voting"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:appComponentFactory">
+        <activity android:name="com.rvcollege.onlinevoting.activities.wait"></activity>
+        <activity
+            android:name="com.rvcollege.onlinevoting.activities.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.rvcollege.onlinevoting.activities.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rvcollege.onlinevoting.activities.UsersListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.rvcollege.onlinevoting.activities.EcActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.rvcollege.onlinevoting.activities.EcLogin" />
+        <activity android:name="com.rvcollege.onlinevoting.activities.SelectConst" />
+        <activity android:name="com.rvcollege.onlinevoting.activities.EcActivity2" />
+        <activity android:name="com.rvcollege.onlinevoting.activities.EcActivity3" />
+        <activity android:name="com.rvcollege.onlinevoting.activities.EcActivity4" />
+        <activity android:name="com.rvcollege.onlinevoting.activities.Voting" />
+        <activity android:name="com.rvcollege.onlinevoting.activities.EcRegister" />
+        <activity android:name="com.rvcollege.onlinevoting.activities.Voted" />
+        <activity android:name="com.rvcollege.onlinevoting.activities.Results" />
+        <activity android:name="com.rvcollege.onlinevoting.activities.SelectRes" />
+        <activity android:name="com.rvcollege.onlinevoting.activities.SecretKey" />
+    </application>
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>
